@@ -60,4 +60,3 @@ buck-out/
 *.jsbundle
 
 yarn.lock
-yarn-error.log
