@@ -1,0 +1,22 @@
+560a71d00c521411820ed6989a92f8c9
+"use strict";
+
+var __importDefault = this && this.__importDefault || function (mod) {
+  return mod && mod.__esModule ? mod : {
+    "default": mod
+  };
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+const axios_1 = __importDefault(require("axios"));
+
+const instance = axios_1.default.create({
+  baseURL: 'https://newsapi.org/v2',
+  headers: {
+    'X-Api-Key': '00a120e76fcc49ea8ce7215ca15608e4'
+  }
+});
+exports.default = instance;

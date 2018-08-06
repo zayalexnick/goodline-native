@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { View, Text, Button } from 'react-native';
+import { View, Text, Button, StyleSheet } from 'react-native';
 import { inject, observer } from 'mobx-react';
 import { AuthStore } from '~/screens/Auth/Form';
 import { NavigationContainerProps } from 'react-navigation';

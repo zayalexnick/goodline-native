@@ -1,0 +1,16 @@
+6f51e7c0639427e6e4317279a161bea4
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var PendingEnum;
+
+(function (PendingEnum) {
+  PendingEnum[PendingEnum["Clear"] = 0] = "Clear";
+  PendingEnum[PendingEnum["Loading"] = 1] = "Loading";
+  PendingEnum[PendingEnum["Loaded"] = 2] = "Loaded";
+  PendingEnum[PendingEnum["Failed"] = 3] = "Failed";
+})(PendingEnum || (PendingEnum = {}));
+
+exports.default = PendingEnum;

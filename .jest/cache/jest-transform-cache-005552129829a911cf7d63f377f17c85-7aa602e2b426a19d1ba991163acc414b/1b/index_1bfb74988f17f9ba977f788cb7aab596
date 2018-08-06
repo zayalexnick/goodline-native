@@ -1,0 +1,14 @@
+2f8a6c58cec83b87a1d263fcbfb8478a
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var NewsStore_1 = require("./store/NewsStore");
+
+exports.NewsStore = NewsStore_1.default;
+
+var Scene_1 = require("./Scene");
+
+exports.default = Scene_1.default;

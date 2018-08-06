@@ -19,8 +19,8 @@ class NewsStore extends BaseStore
             const response: AxiosResponse = await api.list();
 
             runInAction(() => {
-                this.pending = PendingEnum.Loaded;
                 this.items = response.data.articles as ItemInterface[];
+                this.pending = PendingEnum.Loaded;
             });
         }
         catch (e)
